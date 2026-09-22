@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Validate Webhook Trigger') {
             steps {
-                echo '=== Instant Webhook Event Received ==='
+                echo '=== Webhook Test 2 ==='
                 sh 'echo "Execution Time: $(date)"'
                 sh 'git log -1 --oneline'
             }
